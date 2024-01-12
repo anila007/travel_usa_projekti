@@ -1,0 +1,300 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+a {
+  color: red;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+address {
+  margin-bottom: 16px;
+  font-style: normal;
+}
+
+body {
+  font-family: Lato, Helvetica, Arial;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: 0px;
+  margin-bottom: 8px; 
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  color: black;
+  text-align: center;
+}
+
+h3{
+text-decoration: underline;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+    
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: dotted; /* Remove borders */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 20px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+      
+#myBtn:hover {
+  background-color: black; 
+}
+
+
+/*--------------------------------------------------------------
+# Headings Section
+--------------------------------------------------------------*/
+
+
+
+#list{
+  text-align: left;
+  list-style-image: url('/Users/anila/Desktop/projekti/image/monitor.svg')
+
+}
+ 
+
+li{
+  font-weight: bold;
+}
+
+p {
+  color: #8892a0;
+ }
+
+
+
+/*--------------------------------------------------------------
+# Navbar Section
+--------------------------------------------------------------*/
+header .navbar-nav a.nav-link {
+    color: white; 
+      }
+header .navbar-nav a.nav-link:hover {
+    color: black; 
+      }
+header .navbar-nav .active a.nav-link {
+    color: black;
+       }
+.register{
+  border-radius: 10px;
+}
+ 
+#main {
+  margin-top: 90px;
+      }
+        
+
+ 
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: 100vh;
+  background:  url("/Users/anila/Desktop/projekti/image/usa1.jpg") top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: -90px;
+
+}
+#background_image {
+  background-image: url("/Users/anila/Desktop/projekti/image/usa1.jpg");
+  background-size: cover;
+}
+
+#hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 75px;
+  line-height: 56px;
+  color: #fff;
+  text-shadow: -1px 0 2px #2f4d5a;
+
+
+}
+
+#hero h2 {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: -1px 0 2px #2f4d5a;
+  font-style: italic;
+}
+/*--------------------------------------------------------------
+# Content all 4 Section
+--------------------------------------------------------------*/
+
+.fdb-block {
+  
+  padding: 50px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color:  #FFFFEC; 
+  color: black;
+
+}
+  
+.fdb-block .container {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  margin-bottom: 5px;
+  font-size: 22px;
+
+}
+.fdb-block .container.bg-r {
+  background-position: right;
+
+}
+      
+  /*--------------------------------------------------------------
+  # Most visited Section
+  --------------------------------------------------------------*/
+ 
+
+.fdb-block .fdb-box {
+  background: white;
+  padding:60px 40px;
+  overflow: hidden;
+  color: black;
+  border-radius: 15px;
+  box-shadow: 0 5px 14px 0 black !important; 
+  border-style:dashed;
+  outline-style:groove;
+  margin-top: 30px;
+
+}
+
+.fdb-block .fdb-touch {
+  border-top: solid 5px red;
+  border-style: dashed;
+}
+    
+.fdb-block img + h1, .fdb-block img + h2 {
+  margin-top: 40px; 
+}
+
+.lead{
+  font-size:25px ;
+}
+  
+
+/*--------------------------------------------------------------
+# Forms Section
+--------------------------------------------------------------*/
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 45px;
+  padding: 6px 12px;
+  font-size: 20px;
+  background-color:white;
+  background-clip: padding-box;
+  border: 2px solid #ced4da;
+  border-radius:10px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+       
+        
+      
+.form-control:focus {
+  color: black;
+  background-color: #fff;
+  border-color: #ced4da;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+}
+
+.form-control::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+
+/*--------------------------------------------------------------
+# Button
+--------------------------------------------------------------*/
+
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 2px solid transparent;
+  padding: 6px 26px;
+  font-size: 16px;
+  border-radius:4px;
+}
+  
+ /*--------------------------------------------------------------
+# Footer Section
+--------------------------------------------------------------*/
+.footer{
+  background-color: black;
+}
+
+footer {
+  padding: 50px 0 !important; 
+}
+
+footer.footer-large {
+    padding: 10px 0 !important; 
+}
+
+footer .flex-column .nav-link {
+    padding-left: 0; 
+}
+
+footer a {
+    color: white; 
+}
+
+footer a:hover{
+      color:red;
+}
+  
